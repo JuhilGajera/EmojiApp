@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  background: rgb(134, 172, 239);
+}
+.container {
+  width: 98%;
+  height: 100%;
+}
+.container2 {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.containerupper {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+.containermiddle {
+  width: 100%;
+  height: 50%;
+  border-bottom: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+.addEmoji {
+  width: 20%;
+  min-height: 30px;
+  margin-right: 1rem;
+  padding: 12px 20px;
+  border: 2px solid rgb(75, 72, 72);
+  border-radius: 5px;
+}
+button {
+  top: 50%;
+  background-color: #0a0a23;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  min-height: 30px;
+  min-width: 120px;
+}
+h1 {
+  color: rgb(1, 1, 1);
+}
+.containerlower {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.tablerow {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  padding: 1rem;
+  border-bottom: 0.5px solid white;
+}
+.emojiIcon {
+  width: 5%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.emojiTags {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+.emojiname {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+::-webkit-scrollbar {
+  display: none;
+}
